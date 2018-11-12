@@ -17,5 +17,20 @@
   <li><a href="build/aaa-4.2.xpi">Version 4.2</a></li>
   <li><a href="build/aaa-4.2.xpi">Version 4.3</a></li>
 </ul>
+<h2>How to do this</h2>
+<ol>
+  <li><a href="https://pages.github.com/">Set up GitHub Pages</a>.</li>
+  <li>Add a landing page (this page, maybe less crappy-looking) and an
+    <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/Updates">
+    update manifest</a>.
+    <a href="https://jvillalobos.github.io/unlisted-test/aaa-update.json">Example</a>.
+  </li>
+  <li>Create your unlisted versions, making sure you include an
+    <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/applications#Firefox_(Gecko)_properties">
+      update_url</a>.</li>
+  <li><a href="https://developer.mozilla.org/en-US/Add-ons/Distribution">Get your versions signed</a> for self-distribution.</li>
+  <li>Add everything to your repo and deploy.
+    <a href="https://github.com/jvillalobos/jvillalobos.github.io/tree/master/unlisted-test">Example</a>.</li>
+</ol>
 </body>
 </html>
