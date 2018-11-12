@@ -1,0 +1,16 @@
+{
+  "addons": {
+    "aaa-legacy@xulforge.com": {
+      "updates": [
+        {
+          "version": "4.2",
+          "update_link": "https://jvillalobos.github.io/unlisted-test/build/aaa-4.2.xpi"
+        },
+        {
+          "version": "4.3",
+          "update_link": "https://jvillalobos.github.io/unlisted-test/build/aaa-4.3.xpi"
+        }
+      ]
+    }
+  }
+}
